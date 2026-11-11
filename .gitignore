@@ -1,0 +1,10 @@
+.build/
+.swiftpm/
+/metalkey
+*.o
+.DS_Store
+# renders and test media
+*.mp4
+*.mov
+*.png
+!docs/**/*.png
