@@ -45,7 +45,13 @@ ffmpeg -i in.mp4 -loop 1 -i bg.png -filter_complex "\
 
 ## Install
 
-Requirements: a Mac with Apple Silicon, macOS 12 or later, Xcode or the Command Line Tools (for `swift`), and ffmpeg for the final remux.
+With Homebrew (Apple Silicon; pulls in ffmpeg):
+
+```bash
+brew install matija2209/tap/metalkey
+```
+
+From source. Requirements: a Mac with Apple Silicon, macOS 12 or later, Xcode or the Command Line Tools (for `swift`), and ffmpeg for the final remux.
 
 ```bash
 brew install ffmpeg
